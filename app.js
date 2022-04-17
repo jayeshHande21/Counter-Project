@@ -14,13 +14,12 @@ function AddChange() {
 
 }
 
+
 function LowerChange() {
     count--;
     Show();
     output.textContent = count;
 }
-
-
 function Show() {
 
     if (count < 0) {
@@ -32,10 +31,6 @@ function Show() {
         output.style.color = "#333333";
     }
 }
-
-
-
-
 
 btn1.addEventListener("click", LowerChange);
 
